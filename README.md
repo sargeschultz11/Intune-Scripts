@@ -21,13 +21,6 @@ Restores the classic context menu in Windows 11 by modifying registry settings. 
 - Checks if the key already exists before attempting to create it
 - Prompts for a system restart to apply changes
 
-### Install-Microsoft365AppsForBusiness.ps1
-Automates the download and installation of Microsoft 365 applications using the Office Deployment Tool (ODT). This script:
-- Downloads the latest Office Deployment Tool
-- Uses either a custom XML configuration file or a built-in default
-- Handles the entire installation process from download to cleanup
-- Supports customization through parameters
-
 ### ScheduledTaskTemplate.ps1
 Provides a template for creating Windows scheduled tasks using an XML definition. This script:
 - Creates a scheduled task using an embedded XML definition
