@@ -1,5 +1,9 @@
 # Update-IntuneWindowsDeviceCategories.ps1
 
+>**WARNING**: This runbook is no longer supported and has been updated and migrated to another repo.
+>You can find the updated version here: [https://github.com/sargeschultz11/Azure-Runbooks/tree/main/DeviceCategorySync](https://github.com/sargeschultz11/Azure-Runbooks/tree/main/DeviceCategorySync)
+
+
 ## Overview
 This Azure Automation runbook script automatically updates the device categories of Windows devices in Microsoft Intune based on the primary user's department. It specifically targets devices that either have no category assigned or have a category that doesn't match the user's department.
 
